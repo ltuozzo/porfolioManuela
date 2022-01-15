@@ -1,0 +1,82 @@
+body{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#sideNav {
+    background-color: #A9EAF0 !important;
+    margin-bottom: 0px;
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.btn {
+    background-color: #46A9AF;
+    border-color: #46A9AF;
+}
+
+.mat-card{
+    border-radius: 32px;
+    margin: 10px 10 px;
+    padding: 20px;
+    border-color: turquoise;
+}
+.mat-card div {
+    margin: 10px 10px;
+}
+
+#header {
+    margin: 50px;
+    margin-top: 10px;
+    border-color:none;
+    padding-bottom: 0px;
+}
+
+img.redimension {
+    clip-path: inset(120px 0px 120px 0px);
+    margin-top: -100px;
+  }
+
+#profile_image{
+    clip-path: circle(40%);
+    width:17%;
+    height:17%;
+    margin-top: -430px;
+    margin-left: 80px;
+    z-index:1;
+}
